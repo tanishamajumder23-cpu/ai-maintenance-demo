@@ -1,7 +1,9 @@
-def calculate(a, b):
-    if not isinstance(a, (int, float)) or not isinstance(b, (int, float)):
-        raise TypeError("Both inputs must be numbers")
-    return a + b
+def calculate_sum(a, b):
+    res = a + b
+    return res
 
-result = calculate(5, 10)
-print(result)
+    print(calculate_sum(5, 10))
+
+
+if __name__ == "__main__":
+    print(calculate_sum(5, 10))
